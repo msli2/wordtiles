@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mirandali.wordtiles">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,9 +21,7 @@
         <activity android:name=".level1game" />
         <activity android:name=".level2game" />
         <activity android:name=".level3game" />
-        <activity android:name=".finalscreen"></activity>
+        <activity android:name=".finalscreen" />
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

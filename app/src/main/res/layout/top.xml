@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/text_time"
-        android:text="TIME: 30"
+        android:text="TIME: 0"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_width="match_parent"
